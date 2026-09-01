@@ -19,3 +19,6 @@ wave2_scoring_sheet_*.csv
 __pycache__/
 *.pyc
 .DS_Store
+
+# Correspondence drafts name real people — keep them off the public repo.
+email_*.md
