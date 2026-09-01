@@ -1,0 +1,21 @@
+# NEVER publish: it maps the opaque dialogue ids back to provider, source file
+# and collection condition, and would de-anonymise the whole survey.
+_ORGANISER_ONLY/
+
+# The archived wave-1 form sits behind a password on upo.digital; publishing it
+# here would make that password pointless.
+w1-*.html
+
+# Wave-2 dialogue logs stay private until the paper's data release: the
+# filenames alone (provider + case + condition) would break the blinding.
+data/
+*.jsonl
+
+# Returned rater sheets and records — personal data.
+*_results*.csv
+wave2_record_*.json
+wave2_scoring_sheet_*.csv
+
+__pycache__/
+*.pyc
+.DS_Store
